@@ -784,7 +784,7 @@ if (!dir.exists(output_dir)) {
   dir.create(output_dir)
 }
 
-csv_file_path <- here("output", "summerize_diameter_by_height.csv")
+csv_file_path <- here( "output", "summerize_diameter_by_height.csv")
 
 write.csv(summerize_diameter_by_height, file = csv_file_path, row.names = FALSE)
 
